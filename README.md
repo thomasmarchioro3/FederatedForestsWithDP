@@ -1,6 +1,6 @@
-# Federated Random Forests with Differential Privacy
+# Federated Forests with Differential Privacy
 
-Code used in the paper "Federated Random Forests with Differential Privacy".
+Code used in the paper "Federated Forests with Differential Privacy for Distributed Wearable Sensors ".
 
 Requirements (older versions of these libraries may also work but have not been tested):
 - Numpy >= 1.26
