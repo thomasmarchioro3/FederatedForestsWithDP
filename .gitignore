@@ -1,0 +1,8 @@
+data/
+metadata/
+old/
+results/
+
+/__pycache__/
+
+data_stats.py
