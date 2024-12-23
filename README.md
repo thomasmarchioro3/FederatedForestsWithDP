@@ -6,6 +6,7 @@ Code used in the paper "Federated Forests with Differential Privacy for Distribu
 - Numpy >= 1.26
 - Pandas >= 2.1
 - Matplotlib >= 3.8
+- Scikit-learn >= 1.6
 
 <b>Note</b>: older versions of these libraries may also work but have not been tested
 
