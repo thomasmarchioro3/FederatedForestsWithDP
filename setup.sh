@@ -1,10 +1,17 @@
 #!/bin/bash
 
-# Download HuGaDB: https://github.com/romanchereshnev/HuGaDB/blob/master/HumanGaitDataBase.zip
-wget https://github.com/romanchereshnev/HuGaDB/blob/master/HumanGaitDataBase.zip
+# NOTE: First download HuGaDB: https://github.com/romanchereshnev/HuGaDB/blob/master/HumanGaitDataBase.zip
+# and copy the file to the root directory of the project
+
+unzip master.zip
+mv HuGaDB-master/HumanGaitDataBase.zip .
+rm master.zip
+# rm -rf HuGaDB-master
+exit
 
 # Unzip the downloaded file
 unzip HumanGaitDataBase.zip
+
 
 # Remove zip file
 rm HumanGaitDataBase.zip
