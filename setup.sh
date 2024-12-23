@@ -1,26 +1,17 @@
 #!/bin/bash
 
-# NOTE: First download HuGaDB: https://github.com/romanchereshnev/HuGaDB/blob/master/HumanGaitDataBase.zip
+# NOTE: First download "HuGaDB v2.zip" file from: https://github.com/romanchereshnev/HuGaDB/tree/master
 # and copy the file to the root directory of the project
 
-unzip master.zip
-mv HuGaDB-master/HumanGaitDataBase.zip .
-rm master.zip
-# rm -rf HuGaDB-master
-exit
-
-# Unzip the downloaded file
-unzip HumanGaitDataBase.zip
-
-
-# Remove zip file
-rm HumanGaitDataBase.zip
-
 # Create `data/HuGaDB` directory if it doesn't exist
+mkdir -p data
 mkdir -p data/HuGaDB
 
-# Move HumanGaitDataBase to the `data` directory
-mv HumanGaitDataBase data/HuGaDB
+# Unzip the downloaded file
+unzip HuGaDB\ v2.zip -d data/HuGaDB/
+
+# Remove zip file
+rm HuGaDB\ v2.zip
 
 # Create the `metadata` directory if it doesn't exist
 mkdir -p metadata
