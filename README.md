@@ -24,15 +24,15 @@ Code used in the paper:
 7. Run `python -m train_federated_forests --epsilon <EPSILON> --max_depth <MAX_DEPTH>` (replace `<EPSILON> ` with 1, 10, 100, and 1000, and `<MAX_DEPTH>` with 5, and 10)
 8. Run `python -m plot1_acc_vs_epsilon`:
 
-![image](fig/acc_vs_epsilon.png | width=100)
+![image](fig/acc_vs_epsilon.png)
 
 8: Run `python -m plot2_privacy_vs_epsilon`:
 
-![image](fig/privacy_vs_epsilon.png | width=100)
+![image](fig/privacy_vs_epsilon.png)
 
 9: Run `python -m plot3_standalone.py`:
 
-![image](fig/acc_standalone.png | width=100)
+![image](fig/acc_standalone.png)
 
 ### Bibtex citation
 
