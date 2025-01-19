@@ -1,6 +1,9 @@
 # Federated Forests with Differential Privacy
 
-Code used in the paper "Federated Forests with Differential Privacy for Distributed Wearable Sensors ".
+Code used in the paper:
+
+> Favero M, Marchioro T, Schiavo C. [Federated Forests With Differential Privacy for Distributed Wearable Sensors](https://ieeexplore.ieee.org/abstract/document/10767941). In2024 IEEE International Conference on Aerospace Electronics and Remote Sensing Technology (ICARES) 2024 Nov 8 (pp. 1-6). IEEE.
+
 
 ## Requirements 
 - Numpy >= 1.26
@@ -21,12 +24,27 @@ Code used in the paper "Federated Forests with Differential Privacy for Distribu
 7. Run `python -m train_federated_forests --epsilon <EPSILON> --max_depth <MAX_DEPTH>` (replace `<EPSILON> ` with 1, 10, 100, and 1000, and `<MAX_DEPTH>` with 5, and 10)
 8. Run `python -m plot1_acc_vs_epsilon`:
 
-![image](fig/acc_vs_epsilon.png)
+![image](fig/acc_vs_epsilon.png | width=100)
 
 8: Run `python -m plot2_privacy_vs_epsilon`:
 
-![image](fig/privacy_vs_epsilon.png)
+![image](fig/privacy_vs_epsilon.png | width=100)
 
 9: Run `python -m plot3_standalone.py`:
 
-![image](fig/acc_standalone.png)
+![image](fig/acc_standalone.png | width=100)
+
+### Bibtex citation
+
+To cite this work, please use the following bibtex entry:
+
+```
+@inproceedings{favero2024federated,
+  title={Federated Forests With Differential Privacy for Distributed Wearable Sensors},
+  author={Favero, Manuele and Marchioro, Thomas and Schiavo, Chiara},
+  booktitle={2024 IEEE International Conference on Aerospace Electronics and Remote Sensing Technology (ICARES)},
+  pages={1--6},
+  year={2024},
+  organization={IEEE}
+}
+```
